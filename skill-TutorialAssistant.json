@@ -1,0 +1,1682 @@
+{
+  "intents": [
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "empecemos de nuevo"
+        },
+        {
+          "text": "nunca"
+        },
+        {
+          "text": "no importa"
+        },
+        {
+          "text": "no aún"
+        },
+        {
+          "text": "nada"
+        },
+        {
+          "text": "retroceder"
+        },
+        {
+          "text": "Cancelar"
+        },
+        {
+          "text": "espera, quiero hacer algo diferente"
+        },
+        {
+          "text": "me retracto"
+        },
+        {
+          "text": "cambié mi mente"
+        },
+        {
+          "text": "no me referia a eso"
+        },
+        {
+          "text": "No quise hacer eso en realidad, volvamos"
+        },
+        {
+          "text": "ignora esto"
+        },
+        {
+          "text": "no es lo que quería"
+        }
+      ],
+      "description": "Pídale al bot que retroceda un paso."
+    },
+    {
+      "intent": "Bot_Control_Standby",
+      "examples": [
+        {
+          "text": "se paciente"
+        },
+        {
+          "text": "me puedes dar un momento"
+        },
+        {
+          "text": "me puedes esperar?"
+        },
+        {
+          "text": "dame unos minutos"
+        },
+        {
+          "text": "dame un momento"
+        },
+        {
+          "text": "espera"
+        },
+        {
+          "text": "dame un segundo"
+        },
+        {
+          "text": "quiero parar un momento"
+        },
+        {
+          "text": "regresaré"
+        },
+        {
+          "text": "te pondré en espera"
+        },
+        {
+          "text": "en un momento"
+        },
+        {
+          "text": "solo un segundo"
+        },
+        {
+          "text": "solo espera"
+        },
+        {
+          "text": "sigue esperando"
+        },
+        {
+          "text": "dejame ver"
+        },
+        {
+          "text": "necesito un minuto"
+        },
+        {
+          "text": "necesito un descanso"
+        },
+        {
+          "text": "espérame"
+        },
+        {
+          "text": "regreso pronto"
+        },
+        {
+          "text": "regreso en un rato"
+        }
+      ],
+      "description": "Indique un retraso en el suministro de entrada al bot."
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "discutamos esto de nuevo"
+        },
+        {
+          "text": "hagámoslo de nuevo"
+        },
+        {
+          "text": "empieza desde el inicio"
+        },
+        {
+          "text": "reiniciar"
+        },
+        {
+          "text": "inicia un nuevo chat"
+        },
+        {
+          "text": "resetear"
+        },
+        {
+          "text": "por favor inicia desde el principio"
+        },
+        {
+          "text": "una vez mas desde el inicio"
+        },
+        {
+          "text": "volvamos al inicio"
+        },
+        {
+          "text": "Volvamos a abrir esto de nuevo."
+        },
+        {
+          "text": "quiero empezar otra vez"
+        },
+        {
+          "text": "quiero empezar del inicio"
+        },
+        {
+          "text": "necesito resetear"
+        },
+        {
+          "text": "como puedo empezar de nuevo?"
+        },
+        {
+          "text": "podemos empezar de nuevo?"
+        },
+        {
+          "text": "empieza de nuevo"
+        },
+        {
+          "text": "desde arriba"
+        },
+        {
+          "text": "de regreso al principio"
+        },
+        {
+          "text": "empecemos de nuevo"
+        },
+        {
+          "text": "We will need to begin again"
+        }
+      ],
+      "description": "Reinicia el bot o flujo de la conversación."
+    },
+    {
+      "intent": "thanks",
+      "examples": [
+        {
+          "text": "te agradezco"
+        },
+        {
+          "text": "vale"
+        },
+        {
+          "text": "muchas gracias"
+        },
+        {
+          "text": "Thanks watson"
+        },
+        {
+          "text": "vientos"
+        },
+        {
+          "text": "gracias watson"
+        },
+        {
+          "text": "gracias"
+        }
+      ],
+      "description": "Gracias"
+    },
+    {
+      "intent": "help",
+      "examples": [
+        {
+          "text": "que puedes hacer?"
+        },
+        {
+          "text": "que servicios ofreces?"
+        },
+        {
+          "text": "Me puedes ayudar?"
+        },
+        {
+          "text": "necesito ayuda"
+        },
+        {
+          "text": "no se que preguntar"
+        }
+      ],
+      "description": "Ayuda"
+    },
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "no entendiste lo que pedí"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "Mala respuesta"
+        },
+        {
+          "text": "no estoy de acuerdo"
+        },
+        {
+          "text": "no creo que esa sea la respuesta"
+        },
+        {
+          "text": "no necesito eso"
+        },
+        {
+          "text": "no quiero eso"
+        },
+        {
+          "text": "no estaba buscando eso"
+        },
+        {
+          "text": "no es lo que quería"
+        },
+        {
+          "text": "eso no es lo que estaba buscando"
+        },
+        {
+          "text": "no, estoy bien"
+        },
+        {
+          "text": "no es la respuesta correcta"
+        },
+        {
+          "text": "la respuesta es incorrecta"
+        },
+        {
+          "text": "eso no es verdad"
+        },
+        {
+          "text": "eso suena como algo mal"
+        },
+        {
+          "text": "esa no es mi intención"
+        },
+        {
+          "text": "eso esta mal"
+        },
+        {
+          "text": "intentalo de nuevo"
+        },
+        {
+          "text": "no entendiste lo que te dije"
+        },
+        {
+          "text": "no me entendiste"
+        },
+        {
+          "text": "me estas malentendiendo"
+        }
+      ],
+      "description": "Indique que la respuesta del bot no responde a una pregunta."
+    },
+    {
+      "intent": "Bot_Control_Clarification",
+      "examples": [
+        {
+          "text": "no entiendo"
+        },
+        {
+          "text": "no entiendo lo que me estas diciendo"
+        },
+        {
+          "text": "que estas tratando de decir?"
+        },
+        {
+          "text": "no lo entiendo"
+        },
+        {
+          "text": "no entendi los datos que me diste"
+        },
+        {
+          "text": "explicate"
+        },
+        {
+          "text": "que dices?"
+        },
+        {
+          "text": "Puedes repetírmelo?"
+        },
+        {
+          "text": "no puedo entender"
+        },
+        {
+          "text": "a que te refieres con eso"
+        },
+        {
+          "text": "de que hablas"
+        },
+        {
+          "text": "que estas diciendo?"
+        },
+        {
+          "text": "a que te refieres?"
+        },
+        {
+          "text": "puedes ser mas claro?"
+        },
+        {
+          "text": "necesito mas información"
+        },
+        {
+          "text": "no puedo entenderte"
+        },
+        {
+          "text": "no te entiendo"
+        }
+      ],
+      "description": "Repetir o aclarar la última frase."
+    },
+    {
+      "intent": "newEvent",
+      "examples": [
+        {
+          "text": "nueva conferencia"
+        },
+        {
+          "text": "Quiero crear un nuevo evento"
+        },
+        {
+          "text": "nuevo evento"
+        },
+        {
+          "text": "Aquí hay algún dato de un evento"
+        },
+        {
+          "text": "ahí va información de un nuevo evento"
+        },
+        {
+          "text": "Tengo un nuevo evento"
+        }
+      ],
+      "description": "Pregunta sobre un nuevo evento"
+    },
+    {
+      "intent": "showConference",
+      "examples": [
+        {
+          "text": "dime acerca de mi evento de la semana"
+        },
+        {
+          "text": "busca en mis eventos"
+        },
+        {
+          "text": "buscar"
+        },
+        {
+          "text": "buscar conferencia"
+        },
+        {
+          "text": "mostrar conferencias"
+        },
+        {
+          "text": "mostrar datos de eventos"
+        },
+        {
+          "text": "mostrar información de eventos"
+        },
+        {
+          "text": "cuando es mi evento?"
+        },
+        {
+          "text": "cuando es mi conferencia?"
+        },
+        {
+          "text": "cual es la información de mi reunion"
+        },
+        {
+          "text": "cual es la información de la semana"
+        },
+        {
+          "text": "datos de conferencias"
+        },
+        {
+          "text": "tienes información de un evento proximo?"
+        },
+        {
+          "text": "dame información de una conferencia"
+        }
+      ],
+      "description": "muestra información del evento"
+    },
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "te perdí?"
+        },
+        {
+          "text": "sigo esperando"
+        },
+        {
+          "text": "hay alguien ahí?"
+        },
+        {
+          "text": "estas por ahí?"
+        },
+        {
+          "text": "estoy hablando con alguien?"
+        },
+        {
+          "text": "hay alguien ahi?"
+        },
+        {
+          "text": "estas?"
+        },
+        {
+          "text": "aun estas por aquí?"
+        },
+        {
+          "text": "me estas dejando?"
+        },
+        {
+          "text": "sigues aquí conmigo?"
+        },
+        {
+          "text": "estás ahí?"
+        },
+        {
+          "text": "Te fuiste a algún lugar?"
+        },
+        {
+          "text": "Me escuchas?"
+        },
+        {
+          "text": "hay alguien en casa?"
+        },
+        {
+          "text": "a donde fuiste?"
+        },
+        {
+          "text": "háblame si estás ahí"
+        }
+      ],
+      "description": "Pídale al bot que le indique que está disponible."
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "I have no idea what you are looking for"
+        },
+        {
+          "text": "I don t know what you want"
+        },
+        {
+          "text": "I don t know what you need"
+        },
+        {
+          "text": "You got me"
+        },
+        {
+          "text": "To be honest, I m really not sure"
+        },
+        {
+          "text": "No idea"
+        },
+        {
+          "text": "No clue"
+        },
+        {
+          "text": "I m not yet convinced"
+        },
+        {
+          "text": "I m not sure what will make you happy"
+        },
+        {
+          "text": "I m not certain I get what you re saying"
+        },
+        {
+          "text": "I haven't got a clue"
+        },
+        {
+          "text": "I have no idea, actually"
+        }
+      ],
+      "description": "Indicate no definite answer to a question."
+    },
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "esa es la respuesta correcta"
+        },
+        {
+          "text": "si, eso es"
+        },
+        {
+          "text": "Si, eso es lo que estoy buscando"
+        },
+        {
+          "text": "sin problemas"
+        },
+        {
+          "text": "afirmativo"
+        },
+        {
+          "text": "Asi es"
+        },
+        {
+          "text": "claro"
+        },
+        {
+          "text": "Correcto"
+        },
+        {
+          "text": "es correcto"
+        },
+        {
+          "text": "es exactamente lo que quiero"
+        },
+        {
+          "text": "es lo que estaba buscando"
+        },
+        {
+          "text": "es lo que necesito"
+        },
+        {
+          "text": "eso esta bien"
+        },
+        {
+          "text": "esta bien"
+        },
+        {
+          "text": "estoy de acuerdo"
+        },
+        {
+          "text": "genial"
+        },
+        {
+          "text": "leiste mi mente"
+        },
+        {
+          "text": "me gusta"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "perfecto, hagámoslo"
+        },
+        {
+          "text": "si"
+        }
+      ],
+      "description": "Reconozca que la respuesta satisface una pregunta."
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "algo mas"
+        },
+        {
+          "text": "cambiando de tema"
+        },
+        {
+          "text": "cambiemos de tema"
+        },
+        {
+          "text": "discutamos otra cosa"
+        },
+        {
+          "text": "hablemos de algo mas"
+        },
+        {
+          "text": "hablemos de otra cosa"
+        },
+        {
+          "text": "hay que cambiar de tema"
+        },
+        {
+          "text": "necesito ayuda con otra cosa"
+        },
+        {
+          "text": "tengo otro problema"
+        },
+        {
+          "text": "otra cosa"
+        },
+        {
+          "text": "podemos hablar de algo más?"
+        },
+        {
+          "text": "tengo otra pregunta"
+        }
+      ],
+      "description": "Cambiar de tema"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "eventName",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "shortname",
+          "patterns": [
+            "[\"„“][A-Za-z0-9.:| @\\']+[\"”“]"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "eventContact",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "email",
+          "patterns": [
+            "\\\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\\\.[A-Za-z]{2,}\\\\b"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "websiteURI",
+          "patterns": [
+            "(https?:\\/\\/)?([\\da-z\\.-]+)\\.([a-z\\.]{2,6})([\\/\\w \\.-]*)*\\/?$"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "slackProvidedURI",
+          "patterns": [
+            "<[A-Za-z0-9._|:%@\\/]+>"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-location",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "queryPredicate",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "fecha",
+          "synonyms": [
+            "duracion",
+            "tiempo",
+            "mes",
+            "dia",
+            "semana"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "identificador",
+          "synonyms": [
+            "nombre",
+            "id",
+            "titulo"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "location",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Chihuahua",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Coahuila",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Colima",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Distrito Federal",
+          "synonyms": [
+            "CDMX",
+            "ciudad de Mexico"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Durango",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Guanajuato",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Guerrero",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hidalgo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jalisco",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "México",
+          "synonyms": [
+            "estado de Mexico"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Michoacán",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Morelos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nuevo León",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Oaxaca",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Quintana Roo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Veracruz",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Yucatán",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Puebla",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Querétaro",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "San Luis Potosí",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tamaulipas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Zacatecas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sinaloa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tabasco",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tlaxcala",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sonora",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nayarit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Aguascalientes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Baja California",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Baja California Sur",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Campeche",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chiapas",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://us-east.functions.cloud.ibm.com/api/v1/web/a6c0a2ee-7096-4840-bbe4-8d5701f426b2/slackdemo/dispatch.json",
+      "name": "main_webhook",
+      "headers": [
+        {
+          "name": "X-Require-Whisk-Auth",
+          "value": "jorge"
+        }
+      ]
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1517304032949",
+      "context": {
+        "eventContact": "@eventContact.literal"
+      },
+      "metadata": {},
+      "conditions": "@eventContact.literal",
+      "event_name": "input",
+      "dialog_node": "handler_10_1517304032949",
+      "previous_sibling": "handler_11_1517304032949"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Ingresa el contacto por correo electrónico o URL web"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1517304032949",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_11_1517304032949"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_46_1517321324912",
+      "context": {
+        "eventName": "@eventName.literal"
+      },
+      "metadata": {},
+      "conditions": "@eventName.literal",
+      "event_name": "input",
+      "dialog_node": "handler_47_1517321324912",
+      "previous_sibling": "handler_48_1517321324912"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Cuál es el nombre corto? (use comillas)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_46_1517321324912",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_48_1517321324912"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Quieres buscar por identificador o por fecha?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_20_1517405919423",
+      "event_name": "focus",
+      "dialog_node": "handler_22_1517405919423",
+      "previous_sibling": "handler_21_1517405919423"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_20_1517405919423",
+      "context": {
+        "queryPredicate": "@queryPredicate"
+      },
+      "conditions": "@queryPredicate",
+      "event_name": "input",
+      "dialog_node": "handler_21_1517405919423"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1517301823167",
+      "context": {
+        "eventDate": "@sys-date"
+      },
+      "metadata": {},
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_7_1517301823167",
+      "previous_sibling": "handler_8_1517301823167"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿En qué fecha es o comienza?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1517301823167",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_8_1517301823167"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Cómo debería nombrarlo? (usa comillas)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1517392218999",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_4_1517392218999",
+      "previous_sibling": "handler_3_1517392218999"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1517392218999",
+      "context": {
+        "eventName": "@eventName.literal"
+      },
+      "metadata": {},
+      "conditions": "@eventName.literal",
+      "event_name": "input",
+      "dialog_node": "handler_3_1517392218999"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "node_16_1517405116504",
+      "disabled": true,
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_19_1517405919417",
+      "previous_sibling": "slot_20_1517405919423"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_16_1517405116504",
+      "metadata": {},
+      "variable": "$queryPredicate",
+      "dialog_node": "slot_20_1517405919423",
+      "previous_sibling": "node_9_1517403528441"
+    },
+    {
+      "type": "frame",
+      "title": "query event by dates",
+      "output": {},
+      "parent": "node_16_1517405116504",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "actionname": "searchByDates",
+            "eventdates": "<? $eventDateBegin ?>,<? $eventDateEnd ?>"
+          },
+          "result_variable": "webhook_byDates"
+        }
+      ],
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "$queryPredicate:date",
+      "dialog_node": "node_9_1517403528441",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1516878960414",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "frame",
+      "title": "query events by shortname",
+      "output": {},
+      "parent": "node_16_1517405116504",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "eventname": "<? $eventName.substring(1,$eventName.length()-1) ?>",
+            "actionname": "searchByName"
+          },
+          "result_variable": "webhook_byName"
+        }
+      ],
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "$queryPredicate:identifier",
+      "dialog_node": "node_1_1516878960414",
+      "digress_out": "allow_all",
+      "previous_sibling": "response_1_1575995972103",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_16_1517405116504",
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1575995972103"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿A qué hora termina?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1517489967615",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1517489967615",
+      "previous_sibling": "handler_8_1517489967615"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1517489967615",
+      "context": {
+        "endTime": "@sys-time"
+      },
+      "metadata": {},
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_8_1517489967615"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1517403528441",
+      "metadata": {},
+      "variable": "$eventDateEnd",
+      "dialog_node": "slot_27_1517408909920",
+      "previous_sibling": "response_2_1575995997660"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What is the short name of that conference or event?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1517403528441",
+      "disabled": true,
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_14_1517403528453",
+      "previous_sibling": "slot_27_1517408909920"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1517403528441",
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1575995997660",
+      "previous_sibling": "node_15_1517403528453"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "<? $webhook_byDates.data ?>",
+            "Esto es lo que encontré: <? $webhook_byDates.result ?>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1517403528441",
+      "context": {
+        "eventdates": null,
+        "eventDateEnd": null,
+        "eventDateBegin": null,
+        "queryPredicate": null
+      },
+      "metadata": {},
+      "conditions": "$webhook_byDates",
+      "dialog_node": "node_15_1517403528453",
+      "previous_sibling": "slot_23_1517406154633"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1517403528441",
+      "metadata": {},
+      "variable": "$eventDateBegin",
+      "dialog_node": "slot_23_1517406154633"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1517301789523",
+      "context": {
+        "location": "@location"
+      },
+      "metadata": {},
+      "conditions": "@location",
+      "event_name": "input",
+      "dialog_node": "handler_4_1517301789523",
+      "previous_sibling": "handler_5_1517301789523"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿En qué ubicación (estado)?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1517301789523",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_5_1517301789523"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1516878960414",
+      "conditions": "anything_else",
+      "dialog_node": "response_7_1575995991156",
+      "previous_sibling": "node_3_1516880577327"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What is the short name of that conference or event?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1516878960414",
+      "disabled": true,
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_45_1517321324900",
+      "previous_sibling": "response_7_1575995991156"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1516878960414",
+      "metadata": {},
+      "variable": "$eventName",
+      "dialog_node": "slot_46_1517321324912",
+      "previous_sibling": "handler_45_1517321324900"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "<? $webhook_byName.data ?>",
+            "Encontré lo siguiente:\\n <? $webhook_byName.result ?>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1516878960414",
+      "context": {
+        "eventName": null,
+        "queryPredicate": null
+      },
+      "metadata": {},
+      "conditions": "$webhook_byName",
+      "dialog_node": "node_3_1516880577327"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿En qué fecha termina?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1517489958701",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1517489958701",
+      "previous_sibling": "handler_5_1517489958701"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1517489958701",
+      "context": {
+        "eventEndDate": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_5_1517489958701"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1517301749575",
+      "metadata": {},
+      "variable": "$eventDate",
+      "dialog_node": "slot_6_1517301823167",
+      "previous_sibling": "slot_9_1517304032949"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1517301749575",
+      "metadata": {},
+      "variable": "$startTime",
+      "dialog_node": "slot_42_1517317182143",
+      "previous_sibling": "slot_6_1517301823167"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1517301749575",
+      "metadata": {},
+      "variable": "$location",
+      "dialog_node": "slot_3_1517301789523",
+      "previous_sibling": "slot_2_1517392218999"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1517301749575",
+      "metadata": {},
+      "variable": "$eventName",
+      "dialog_node": "slot_2_1517392218999",
+      "previous_sibling": "handler_2_1517301789512"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1517301749575",
+      "metadata": {},
+      "variable": "$eventContact",
+      "dialog_node": "slot_9_1517304032949",
+      "previous_sibling": "slot_3_1517301789523"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1517301749575",
+      "metadata": {},
+      "variable": "$endTime",
+      "dialog_node": "slot_7_1517489967615",
+      "previous_sibling": "slot_4_1517489958701"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1517301749575",
+      "metadata": {},
+      "variable": "$eventEndDate",
+      "dialog_node": "slot_4_1517489958701",
+      "previous_sibling": "slot_42_1517317182143"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "<? $webhook_insert ?>",
+            "Ok, creé el nuevo evento con los datos <? $webhook_insert.input ?>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1517301749575",
+      "context": {
+        "endTime": null,
+        "location": null,
+        "eventDate": null,
+        "eventName": null,
+        "startTime": null,
+        "eventContact": null,
+        "eventEndDate": null
+      },
+      "conditions": "$webhook_insert",
+      "dialog_node": "response_3_1575996015221",
+      "previous_sibling": "handler_2_1517582351537"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Tell me about the start date and in which city it is. Do you have a URI for that event?",
+            "For which city? And on what date does it start?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1517301749575",
+      "disabled": true,
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_2_1517301789512",
+      "previous_sibling": "response_4_1575996016324"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_1_1517301749575",
+      "conditions": "anything_else",
+      "dialog_node": "response_4_1575996016324",
+      "previous_sibling": "response_3_1575996015221"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "ok, vamos de nuevo"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1517301749575",
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "#Bot_Control_Start_Over",
+      "event_name": "generic",
+      "dialog_node": "handler_2_1517582351537"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Cuando inicia? (hora)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_42_1517317182143",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_44_1517317182143",
+      "previous_sibling": "handler_43_1517317182143"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_42_1517317182143",
+      "context": {
+        "startTime": "@sys-time"
+      },
+      "metadata": {},
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_43_1517317182143"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Cuando termina?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_27_1517408909920",
+      "event_name": "focus",
+      "dialog_node": "handler_29_1517408909920",
+      "previous_sibling": "handler_28_1517408909920"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_27_1517408909920",
+      "context": {
+        "date": "@sys-date",
+        "eventDateEnd": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_28_1517408909920"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Cuándo es la fecha de inicio del evento que está buscando?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_23_1517406154633",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_25_1517406154633",
+      "previous_sibling": "handler_24_1517406154633"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_23_1517406154633",
+      "context": {
+        "eventDateBegin": "@sys-date"
+      },
+      "metadata": {},
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_24_1517406154633"
+    },
+    {
+      "type": "standard",
+      "title": "Gracias",
+      "output": {
+        "text": {
+          "values": [
+            "Sin problema!",
+            "Cuando quieras!",
+            "De nada!",
+            "Perfecto!",
+            "Siempre a la orden!"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#thanks",
+      "dialog_node": "Thanks",
+      "previous_sibling": "Help"
+    },
+    {
+      "type": "standard",
+      "title": "En otras cosas...",
+      "output": {
+        "text": {
+          "values": [
+            "Lo siento, no entendí eso",
+            "¿me lo repetirías por favor?"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_16_1517405116504"
+    },
+    {
+      "type": "frame",
+      "title": "buscar evento",
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#showConference",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_16_1517405116504",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1517301749575"
+    },
+    {
+      "type": "standard",
+      "title": "Ayuda",
+      "output": {
+        "text": {
+          "values": [
+            "Puedo mostrarte información sobre eventos o recopilar nuevos datos de eventos o reuniones.",
+            "Hey! di algo como \"mostrar información del evento\" para buscar datos sobre una reunión o conferencia. O utilice \"nuevo evento\" o \"nueva conferencia\" para recopilar datos para una nueva entrada en la base de datos."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#help",
+      "dialog_node": "Help",
+      "previous_sibling": "node_7_1580353752330"
+    },
+    {
+      "type": "frame",
+      "title": "nuevo evento",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "actionname": "insert",
+            "eventValues": "<? $eventName.substring(1,$eventName.length()-1) ?>,<? $location ?>,<? $eventDate ?>,<? $startTime ?>,<? $eventEndDate ?>, <? $endTime ?>, <? $eventContact ?> "
+          },
+          "result_variable": "webhook_insert"
+        }
+      ],
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#newEvent",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1517301749575",
+      "digress_out": "allow_all",
+      "previous_sibling": "Thanks",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Hola",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola! puedo ayudarte a crear un evento o buscar entre los eventos que tienes guardados!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "node_7_1580353752330"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "name": "TutorialAssistant",
+  "language": "en",
+  "description": "DB2 Assistant"
+}
