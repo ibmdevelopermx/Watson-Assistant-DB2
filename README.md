@@ -24,6 +24,10 @@ Crea un asistente virtual que se conecta a una base de datos estructurada y hace
 2.	Una vez que tengamos el código nos vamos a Gestionar>Facturación y Uso>Facturación
 3.	Buscamos “Códigos de características (Promocionales)”
 
+# Arquitectura
+![](assets/ar.png)<br/> 
+
+
 # Configuración de servicio DB2 
 1. Abrimos la terminal, clonamos este repositorio y entramos a la carpeta clonada utilizando el siguiente comando:
 ###
@@ -137,3 +141,8 @@ Una vez instalado podemos visualizar el plugin desde el apartado de "settings", 
 
 ![](assets/16.png)<br/> 
 
+# Eliminación de recursos
+
+Si se ejecuta el script de limpieza en el directorio principal, se suprime la tabla de sucesos de Db2 on Cloud y se eliminan las acciones de Cloud Functions. Esto puede resultar útil cuando empieza a modificar o a ampliar el código. El script de limpieza no modifica el espacio de trabajo de Watson Assistant ni el conocimiento.
+###
+    sh cleanup.sh
